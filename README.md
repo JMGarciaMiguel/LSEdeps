@@ -45,9 +45,9 @@ udver: '2'
 ## Syntax
 
 * The following subtypes are used for Spanish Sign Language:
-    * [[compound:redup]]()
-    * [[compound:svc]]() for serial verb construction
-    * [[compound:vsc]]
+    * [compound:redup]()
+    * [compound:svc]() for serial verb construction
+    * [compound:vsc]()
 
 ---
 **Instruction**: Give criteria for identifying core arguments (subjects and objects), and describe the range of copula constructions in nonverbal clauses. List all subtype relations used. Include links to language-specific relations definitions if any.
