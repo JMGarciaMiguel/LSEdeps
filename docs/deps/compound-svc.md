@@ -41,7 +41,6 @@ c) instances of general + specific action (this last expressed by a descriptive 
 # gloss_en = MAN WOMAN SMALL2(2H) SIT cl
 # text_es = Los niñ@s se sientan en el suelo
 # text_en = The girls/boys sit on the floor
-# timestamp = 1718008286917.125
 1	HOMBRE	_	NOUN	N.P	_	4	nsubj	_	Gloss=MAN
 2	MUJER	_	NOUN	N.P	_	1	conj	_	Gloss=WOMAN
 3	PEQUEÑO2(2M)	_	ADJ	Adj	_	1	amod	_	Gloss=SMALL2(2H)
