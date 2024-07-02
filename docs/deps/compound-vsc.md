@@ -1,4 +1,9 @@
-
+---
+layout: relation
+title: 'compound:vsc'
+shortdef: 'verb sandwich construction'
+udver: '2'
+---
 For Spanish Sign Language, we use `compound:vsc` for a construction, usual in sign languages, in which the same verb occurred twice in the same sentence, separated by the object and/or adjuncts.
 
 ~~~ conllu
