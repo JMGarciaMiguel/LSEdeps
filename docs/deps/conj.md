@@ -5,19 +5,16 @@ shortdef: 'conjunct'
 udver: '2'
 ---
 
-The conjunct relation holds between coordinated elements. We treat
-coordination asymmetrically: The head of the relation is the first
-conjunct and other conjuncts depend on it via the `conj` relation. 
-For Swedish Sign Language, we use `conj` for elements coordinated with or without a 
-`cc`, as well as repeated elements within a clause not attributed to repair (see [reparandum()].
+The conjunct relation holds between coordinated elements. We treat coordination asymmetrically: The head of the relation is the first conjunct and other conjuncts depend on it via the conj relation. Repeated elements within a clause are listed as [compound:redup] or [compound:vsc]
 
-~~~ sdparse
-PRO1 PERF MED.VARA OS@b VM@b \n I have participated in the Olympics and the World Championship
-conj(OS@b, VM@b)
+~~~ conllu
+# sent_id = VV-FRE#036
+# text = SERPIENTE TOCAR G:¡ah! cl.m(Xc):golpear+con-palo
+# gloss_en = SNAKE TOUCH G cl
+# text_es = Toqué la serpiente, me asusté y la apaleé.
+# text_en = I touched the snake, got scared and beat it.
+1	SERPIENTE	_	NOUN	N	_	2	_	_	Gloss=SNAKE
+2	TOCAR	_	VERB	V	_	0	root	_	Gloss=TOUCH
+3	G:¡ah!	_	ADV	xxx	_	2	advmod	_	Gloss=G
+4	cl.m(Xc):golpear+con-palo	_	VERB	V.D	_	2	conj	_	Gloss=cl
 ~~~
-
-~~~ sdparse
-PRO1 PRO1 HETA TEDDIE@b@en TEDDIE-SUNDQVIST@en \n I am called Teddie Sundqvist.
-conj(PRO1, PRO1)
-~~~	
-<!-- Interlanguage links updated Ne 5. května 2024, 18:20:59 CEST -->
