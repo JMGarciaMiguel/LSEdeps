@@ -26,7 +26,7 @@ udver: '2'
 
 * Spanish Sign Language uses *** of the universal tags
 * The following tags are not used:
-  *
+    *
 
 ---
 **Instruction**: Specify any unused tags. Explain what words are tagged as PART. Describe how the AUX-VERB and DET-PRON distinctions are drawn, and specify whether there are (de)verbal forms tagged as ADJ, ADV or NOUN. Include links to language-specific tag definitions if any.
