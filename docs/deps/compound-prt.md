@@ -1,14 +1,19 @@
 ---
 layout: relation
-title:  'compound:prt'
-shortdef : 'verb particle'
+title:  'compound:redup'
+shortdef : 'reduplicated compounds'
 udver: '2'
 ---
 
-The verb particle relation _compound:prt_ is used for the particle element of a particle verb construction, usually in a construction calqued from Swedish.
+The compound:redup relation is used for reduplicated compounds. There is a reduplication when a token is followed by one or several occurrences of the same token.
 
-~~~ sdparse
-PÅ VÄG VARVA NER \n [I'm] on [my] way to wind down
-compound(VARVA, NER)
+~~~ conllu
+# sent_id = HC-JRV#107
+# text = CASA- COSTAR COSTAR
+# gloss_en = HOME- COST COST
+# text_es = "Cas.. Cuesta, cuesta,
+# text_en = "Almost.. Its tough, tough,
+1	CASA-	_	NOUN	N	_	2	reparandum	_	Gloss=HOME-
+2	COSTAR	_	VERB	V	_	0	root	_	Gloss=COST
+3	COSTAR	_	VERB	V	_	2	compound:redup	_	Gloss=COST
 ~~~
-<!-- Interlanguage links updated Ne 5. května 2024, 18:20:56 CEST -->
