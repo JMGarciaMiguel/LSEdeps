@@ -6,10 +6,18 @@ udver: '2'
 ---
 
 A coordinating conjunction relation holds between the head conjunct of a coordinate structure and any of the coordinating conjunction involved in the structure. From v2, coordinating conjunctions are attached to the immediately following conjunct.
-For more on coordination, see the [conj]() relation. 
 
-~~~ sdparse
-MEN FRAMTID PU@g PERF-NEG BESTÄMMA-SIG VAD VILL BLI(L) PU@g \n But about the future, I haven't decided what I want to become
-cc(år, och)
+~~~ conllu
+# sent_id = HC-JRV#001
+# text = TÍTULO TRES CERDO OTRO UNO LOBO
+# gloss_en = TITLE THREE PIG OTHER  ONE WOLF
+# text_es = "Los tres cerdos y el lobo".
+# text_en = "The three pigs and the wolf".
+# timestamp = 1718008286917.125
+1	TÍTULO	_	NOUN	N	_	3	nsubj	_	Gloss=TITLE
+2	TRES	_	NUM	Num	_	3	nummod	_	Gloss=THREE
+3	CERDO	_	NOUN	N	_	0	root	_	Gloss=PIG
+4	OTRO	_	CCONJ	Conj	_	6	cc	_	Gloss=OTHER
+5	UNO	_	NUM	Num	_	6	nummod	_	Gloss=ONE
+6	LOBO	_	NOUN	N	_	3	conj	_	Gloss=WOLF
 ~~~
-<!-- Interlanguage links updated Ne 5. května 2024, 18:20:50 CEST -->
