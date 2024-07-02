@@ -5,14 +5,18 @@ shortdef: 'case marking'
 udver: '2'
 ---
 
-The `case` relation is used for any preposition in Swedish Sign Language, as well as possessiv markers linking nominal elements. Prepositions are treated as dependents of the noun they attach to or introduce in an "extended nominal projection". Thus, UD does not treat a preposition as a mediator between a modified word and its object. The `case` relation aims at providing a uniform analysis of prepositions and case in morphologically rich languages. 
+The case relation is used for any case-marking element which is treated as a separate syntactic word. Case-marking elements are treated as dependents of the noun they attach to or introduce.
 
-~~~ sdparse
-PEK DYKA-UPP PRO1.FL MEDLEM INUTI REGION FÖRESLÅ OBJPRO1 glosa@& ORDFÖRANDE INUTI VGDI@b@en \n We, the members, showed up in the region and suggested me to be president of the VGDI
-case(VGDI@b@en, INUTI)
+~~~ conllu
+# timestamp = 1718189896283
+# sent_id = PS-JRV#003
+# text = CLIMA BUENO IGUAL VERANO ES.ASÍ
+# gloss_en = CLIMATE GOOD  EQUAL SUMMER SPECIFIC
+# text_es = Hacía muy buen tiempo, como de verano.
+# text_en = The weather was hot like in the summer.
+1	CLIMA	_	NOUN	N	_	2	nsubj	_	Gloss=CLIMATE
+2	BUENO	_	ADJ	Adj	_	0	root	_	Gloss=GOOD
+3	IGUAL	_	ADP	Prep	_	4	case	_	Gloss=EQUAL
+4	VERANO	_	NOUN	N.P	_	2	obl	_	Gloss=SUMMER
+5	ES.ASÍ	_	ADV	Adv	_	2	advmod	_	Gloss=SPECIFIC
 ~~~
-~~~ sdparse
-VIKTIG DÖV(L) FÖRENING POSS VERKSAMHET(J)^HET@b TYCKA PRO1 \n The Deaf club's work is important, I think
-case(VERKSAMHET(J)^HET@b, POSS)
-~~~
-<!-- Interlanguage links updated Ne 5. května 2024, 18:20:48 CEST -->
