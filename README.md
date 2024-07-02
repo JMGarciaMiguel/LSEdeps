@@ -26,7 +26,7 @@ udver: '2'
 
 * Spanish Sign Language uses *** of the universal tags
 * The following tags are not used:
-* *
+ *
 
 ---
 **Instruction**: Specify any unused tags. Explain what words are tagged as PART. Describe how the AUX-VERB and DET-PRON distinctions are drawn, and specify whether there are (de)verbal forms tagged as ADJ, ADV or NOUN. Include links to language-specific tag definitions if any.
@@ -45,9 +45,9 @@ udver: '2'
 ## Syntax
 
 * The following subtypes are used for Spanish Sign Language:
-** compound:redup
-  compound:svc for serial verb construction
-  compound:vsc
+ * compound:redup
+ * compound:svc for serial verb construction
+ * compound:vsc
 
 ---
 **Instruction**: Give criteria for identifying core arguments (subjects and objects), and describe the range of copula constructions in nonverbal clauses. List all subtype relations used. Include links to language-specific relations definitions if any.
