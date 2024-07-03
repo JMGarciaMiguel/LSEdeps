@@ -15,7 +15,7 @@ The `nmod` relation is used for nominal modifiers of nouns.
 # text_en = The men made wooden houses
 1	HOMBRE	_	NOUN	N.P	_	4	nsubj	_	Gloss=MAN
 2	PERSONA(2Msu)	_	NOUN	N.Loc	_	1	appos	_	Gloss=PERSON(2Hsuc)
-3	MANUAL	_	ADV	xxx	_	4	advmod	_	Gloss=MANUAL
+3	MANUAL	_	ADV	adv	_	4	advmod	_	Gloss=MANUAL
 4	CONSTRUIR	_	VERB	V	_	0	root	_	Gloss=BUILD
 5	CASA	_	NOUN	N	_	4	obj	_	Gloss=HOME
 6	MADERA	_	NOUN	N	_	5	nmod	_	Gloss=WOOD
