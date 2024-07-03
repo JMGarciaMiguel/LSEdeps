@@ -1,7 +1,7 @@
 ---
 layout: relation
 title: 'obl'
-shortdef: 'oblique modifier'
+shortdef: 'oblique nominal'
 udver: '2'
 ---
 
