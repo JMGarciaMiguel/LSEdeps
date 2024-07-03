@@ -6,15 +6,16 @@ udver: '2'
 ---
 
 A determiner is the relation between the head of a nominal phrase and its determiner. 
-This is usually a pointing sign used alongside a noun, or the numeral ONE ('one') used as an article.
+This is usually a pointing sign used alongside a noun, or a quantifier, or an indefinite, as OTRO (‘other’) or MISMO (‘same’).
 
-~~~ sdparse
-PRO1 VÄXA-UPP PEK VÄNERSBORG^SKOLA@en PRO1 FÖDD I@b VAR^BERG@en \n I grew up in Vänerskolan [but] I was born in Varberg
-det(VÄNERSBORG^SKOLA@en, PEK)
+~~~ conllu
+# sent_id = PS-JRV#068
+# text = AHORA INDX MUJER ALEJARSE
+# gloss_en = NOW INDX WOMAN LEAVE
+# text_es = Y la niña se fue (como si nada)
+# text_en = and the girl continued as if nothing had happened
+1	AHORA	_	ADV	Adv	_	4	advmod	_	Gloss=NOW
+2	INDX	_	DET	Det	_	3	det	_	Gloss=INDX
+3	MUJER	_	NOUN	N.P	_	4	nsubj	_	Gloss=WOMAN
+4	ALEJARSE	_	VERB	V.Loc	_	0	root	_	Gloss=LEAVE
 ~~~
-
-~~~ sdparse
-FRÅGA GRODA PAPPA FÅ PRO1 TA*MED@z ADOPTERA EN GRODA JA@ub@z HAND(SJ)+HANTERA@p BEGE-SIG-HEM \n [He] asked Daddy Frog "Can I adopt a frog" [he said] "yes", so [they] took it and went home
-det(GRODA-9, EN)
-~~~
-<!-- Interlanguage links updated Ne 5. května 2024, 18:21:06 CEST -->
