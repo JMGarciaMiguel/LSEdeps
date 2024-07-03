@@ -1,4 +1,4 @@
-  ---
+---
 layout: relation
 title: 'nsubj'
 shortdef: 'nominal subject'
