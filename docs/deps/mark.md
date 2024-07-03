@@ -5,7 +5,7 @@ shortdef: 'marker'
 udver: '2'
 ---
 
-A marker is the word introducing a clause subordinate to another clause. The marker is a dependent of the subordinate clause head. Most LSE markers are signs that were in origin nouns, like MOTIVO and OBJETIVO, that are used as conectors between verbal items.
+A marker is the word introducing a clause subordinate to another clause. The marker is a dependent of the subordinate clause head. Most LSE markers are signs that were in origin nouns, like MOTIVO and OBJETIVO, and are used as conectors between verbal items.
 
 ~~~ conllu
 # sent_id = HC-JRV#080
