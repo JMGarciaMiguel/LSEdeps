@@ -8,17 +8,13 @@ udver: '2'
 
 ## Tokenization and Word Segmentation
 
-* The Spanish Sign Language treebank depends on the sign glosses provided in the source material, so the source texts is already tokenized.
+* The Spanish Sign Language treebank depends on the sign glosses provided in the source material, so the source texts is already tokenized. Each token corresponds to an id-gloss, i.e. a word that uniquely identifies each LSE sign. Sign glosses consist of uppercase Spanish rough equivalents. English equivalents are also provided as Gloss_en. Depicting constructions (also known as "classifier constructions") are preceded by "cl"
 * Note that linearizing and transcribing or glossing a signed language is not trivial, and results in some degree of information loss. The gloss provided correspond to dominant hand (i.e., in most cases, right hand) articulations. However, non manual components are not included.
-* Sign glosses consist of uppercase Spanish rough equivalents. Depicting constructions (also known as "classifier constructions") are preceded by "cl"
 * Sign glosses are always delimited by whitespace.
 * There is no punctuation.
 * Multiword tokens are not used. 
 
----
-**Instruction**: Describe the general rules for delimiting words (for example, based on whitespace and punctuation) and exceptions to these rules. Specify whether words with spaces and/or multiword tokens occur. Include links to further language-specific documentation if available.
 
----
 
 ## Morphology
 
@@ -37,10 +33,6 @@ udver: '2'
 
 * No UD morphological features are used for Spanish Sign Language treebank
 
----
-**Instruction**: Describe inherent and inflectional features for major word classes (at least NOUN and VERB). Describe other noteworthy features. Include links to language-specific feature definitions if any.
-
----
 
 ## Syntax
 
@@ -54,9 +46,4 @@ udver: '2'
 
 ---
 
-## Treebanks
-
-There are [N](../treebanks/LCODE-comparison.html) LANGUAGE UD treebanks:
-
-  * [LANGUAGE-A](../treebanks/LCODE_a/index.html)
   * [LANGUAGE-B](../treebanks/LCODE_b/index.html)
