@@ -5,7 +5,7 @@ The LSE-UD dependency treebank is derived from RADIS corpus, which consist of se
 
 The eaf ELAN files with glossing and grammatical annotation are available at [Zenodo](https://doi.org/10.5281/zenodo.10670864).
 
-This first release of the LSE-UD treebank comprises three narratives and a set of 100 elicited isolated sentences. It is likely that future releases will include more texts and sentences.
+This first release of the LSE-UD treebank comprises 488 sentences and 1881 tokens from three narratives and a set of 100 elicited isolated sentences. It is likely that future releases will include more texts and sentences.
 
 # Acknowledgments
 Glossing of the video recordings was performed mainly by Juan Ramón Valiño and Ania Pérez.
