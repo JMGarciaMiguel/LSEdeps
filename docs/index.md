@@ -15,7 +15,6 @@ udver: '2'
 * Multiword tokens are not used. 
 
 
-
 ## Morphology
 
 ### Tags
@@ -46,4 +45,3 @@ udver: '2'
 
 ---
 
-  * [LANGUAGE-B](../treebanks/LCODE_b/index.html)
