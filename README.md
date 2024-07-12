@@ -1,18 +1,17 @@
 # Summary
 The Universal Dependency treebank for Spanish Sign Language (Lengua de Signos Española [LSE], ISO 639-3: ssp) was developed by the GRADES group at the University of Vigo.
 # Introduction
-The LSE-UD dependency treebank is derived from RADIS corpus, which consist of several recordings of elicited narratives and isolated sentences signed in LSE. Most recordings, along with glosses and translations, can be browsed at http://isignos.uvigo.gal/en, where a [Signbank lexicon](http://isignos.uvigo.gal/es/lexico) with all the id-glosses is also available.
+This first release of the LSE-UD treebank comprises 488 sentences and 1881 tokens from three narratives and a set of 100 elicited isolated sentences. Hopefully, future releases will include more texts and sentences.
 
-The eaf ELAN files with glossing and grammatical annotation are available at [Zenodo](https://doi.org/10.5281/zenodo.10670864).
+The LSE-UD dependency treebank is derived from RADIS corpus, which consists of 48 recordings of elicited narratives, interviews and isolated sentences signed in LSE. The eaf ELAN files with glossing and grammatical annotation are available at [Zenodo](https://doi.org/10.5281/zenodo.10670864).
 
-This first release of the LSE-UD treebank comprises 488 sentences and 1881 tokens from three narratives and a set of 100 elicited isolated sentences. It is likely that future releases will include more texts and sentences.
+Most recordings, along with glosses and translations, can be browsed and searched at http://isignos.uvigo.gal/en, where a [Signbank lexicon](http://isignos.uvigo.gal/es/lexico) with all the id-glosses is also available.
 
 # Acknowledgments
 Glossing of the video recordings was performed mainly by Juan Ramón Valiño and Ania Pérez.
 
-Grammatical annotation of the corpus by MCCP and JMGM. Syntactic annotation and format conversions from eaf to conllu by JMGM. Manual revisions of syntactic annotation by JMGM and MCCP.
+Manual grammatical annotation of the corpus, including syntactic annotation, format conversions and revisions was performed by Carmen Cabeza and Jose M. García-Miguel. 
 
-Manual modifications of the treebank and consistency checking were partly done using the [Arborator Grew](https://arboratorgrew.elizia.net) graphic annotation interface.
 # References
 * Cabeza, Carmen / García-Miguel, José M. (dirs): _iSignos: Interfaz de datos de Lengua de Signos Española_ (versión 1.0). Universidade de Vigo. <http://isignos.uvigo.gal/en>
 * Cabeza Pereiro, María del Carmen, Ania Pérez Pérez, Juan R. Valiño Freire & José M. García-Miguel Gallego. 2024. Annotations for LSE-RADIS corpus. Zenodo. https://doi.org/10.5281/zenodo.10670864.
