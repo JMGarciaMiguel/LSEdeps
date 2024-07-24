@@ -4,7 +4,7 @@ title:  'Spanish Sign Language UD'
 udver: '2'
 ---
 
-# UD for SPANISH SIGN LANGUAGE (LSE) <span class="flagspan"><img class="flag" src="../../flags/svg/AQ.svg" /></span>
+# UD for SPANISH SIGN LANGUAGE (LSE) 
 
 ## Tokenization and Word Segmentation
 
@@ -39,7 +39,7 @@ udver: '2'
 * Subject and object are core participants that may precede or follow the main verb.
 * Nonverbal predicates do not make use of copula constructions.
 * The following subtypes are used for Spanish Sign Language:
-    * [compound:redup]() for the repetition of a sign
+    * [compound:redup](deps/compound-redup.md) for the repetition of a sign
     * [compound:svc]() for serial verb construction
     * [compound:vsc]() for the repetition of a verb before and after an argument
 
