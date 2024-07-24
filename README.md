@@ -1,9 +1,9 @@
 # Summary
 The Universal Dependency treebank for Spanish Sign Language (Lengua de Signos Española [LSE], ISO 639-3: ssp) was developed by the GRADES group at the University of Vigo.
 # Introduction
-This first release of the LSE-UD treebank comprises 488 sentences and 1881 tokens from three narratives and a set of 100 elicited isolated sentences. Hopefully, future releases will include more texts and sentences.
+This first release of the LSE-RADIS treebank comprises 488 sentences and 1881 tokens from three narratives and a set of 100 elicited isolated sentences. Hopefully, future releases will include more texts and sentences.
 
-The LSE-UD dependency treebank is derived from RADIS corpus, which consists of 48 recordings of elicited narratives, interviews and isolated sentences signed in LSE. The eaf ELAN files with glossing and grammatical annotation are available at [Zenodo](https://doi.org/10.5281/zenodo.10670864).
+The LSE-RADIS dependency treebank is derived from RADIS corpus, which consists of 48 recordings of elicited narratives, interviews and isolated sentences signed in LSE. The eaf ELAN files with glossing and grammatical annotation are available at [Zenodo](https://doi.org/10.5281/zenodo.10670864).
 
 Most recordings, along with glosses and translations, can be browsed and searched at http://isignos.uvigo.gal/en, where a [Signbank lexicon](http://isignos.uvigo.gal/es/lexico) with all the id-glosses is also available.
 
