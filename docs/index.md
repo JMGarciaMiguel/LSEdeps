@@ -40,6 +40,6 @@ udver: '2'
 * Nonverbal predicates do not make use of copula constructions.
 * The following subtypes are used for Spanish Sign Language:
     * [compound:redup](deps/compound-redup.md) for the repetition of a sign
-    * [compound:svc]() for serial verb construction
-    * [compound:vsc]() for the repetition of a verb before and after an argument
+    * [compound:svc](deps/compound-svc.md) for serial verb construction
+    * [compound:vsc](deps/compound-vsc.md) for the repetition of a verb before and after an argument
 
