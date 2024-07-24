@@ -36,7 +36,7 @@ udver: '2'
 
 ## Syntax
 
-* Subject and object are core participants that may precede or follow the main verb.
+* Subject and object are core participants that usually precede or occasionally follow the main verb.
 * Nonverbal predicates do not make use of copula constructions.
 * The following subtypes are used for Spanish Sign Language:
     * [compound:redup](deps/compound-redup.md) for the repetition of a sign
