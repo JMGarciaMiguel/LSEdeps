@@ -10,12 +10,14 @@ udver: '2'
 An aux (auxiliary) of a clause is a function word associated with a verbal predicate that expresses categories such as tense, mood, aspect, voice or evidentiality. It is often a verb (which may have non-auxiliary uses as well) 
 
 ~~~ conllu
-# sent_id = PS-JRV#111
-# text = cl.e(3):PERSONAS3-desplazarse CONTINUAR
-# gloss_en = cl CONTINUE
-# text_es = Seguían caminando.
-# text_en = They continued walking.
-# timestamp = 1718008286917.125
-1	cl.e(3):PERSONAS3-desplazarse	_	VERB	V.D	_	0	root	_	Gloss=cl
-2	CONTINUAR	_	VERB	V	_	1	aux	_	Gloss=CONTINUE
+# sent_id = VV-FRE#083
+# text = HOMBRE PERSONA CONOCER INDX.AUX MUJER
+# gloss_en = MAN PERSON KNOWLEDGE INDX.AUX WOMAN
+# text_es = El hombre conoce a la mujer
+# text_en = The man meets the woman
+1	HOMBRE	_	NOUN	N.P	_	3	nsubj	_	Gloss=MAN
+2	PERSONA	_	NOUN	N.Loc	_	1	appos	_	Gloss=PERSON
+3	CONOCER	_	VERB	V	_	0	root	_	Gloss=KNOWLEDGE
+4	INDX.AUX	_	AUX	Aux	_	3	aux	_	Gloss=INDX.AUX
+5	MUJER	_	NOUN	N.P	_	3	obj	_	Gloss=WOMAN
 ~~~
