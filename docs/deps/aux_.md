@@ -7,7 +7,7 @@ shortdef: 'auxiliary'
 udver: '2'
 ---
 
-An aux (auxiliary) of a clause is a function word associated with a verbal predicate that expresses categories such as tense, mood, aspect, voice or evidentiality. It is often a verb (which may have non-auxiliary uses as well) 
+An aux (auxiliary) of a clause is a function word associated with a verbal predicate that expresses categories such as tense, mood, aspect, voice or evidentiality. 
 
 ~~~ conllu
 # sent_id = VV-FRE#083
